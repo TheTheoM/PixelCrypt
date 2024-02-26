@@ -6,7 +6,7 @@ A simple python program that takes an image, and a string and subtly modifies th
 ### Encoding a Message
 
 ```python
-encoded_Message = "This program will hide this message into the pixelData of an image of your choosing. Hopefully in a way that is difficult to detect."
+encoded_Message = "This text will be encoded in the pixel-data of your image."
 
 # Example usage with Encode_V4 encryption function. 
 encode_and_save(encoded_Message, 'image.png', 'encoded.png', Encode_V4)
