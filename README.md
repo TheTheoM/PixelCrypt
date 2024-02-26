@@ -1,6 +1,10 @@
 # PixelCrypt
 A simple CLI python program that takes an image, and a string and subtly modifies the pixel data to encode that image. 4 current encoding and current decoding algorithms, more will be added in the future. You must use the same to encode or decode. 
 
+### Note:
+
+The currently-implement algorithms 1-3 are basic and easily identifiable. V4 is extremely hard to tell if applied, however is the least dense and works best with high resolution pixels with a variety of pixel-data (i.e. no single tones like an all white picture). Observe the two files in examples to see for yourself.
+
 ## Usage
 
 ### Encoding a Message
