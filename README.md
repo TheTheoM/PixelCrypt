@@ -20,7 +20,7 @@ python PixelCrypt.py decode encoded_image.png Decode_V1
 - sourceImgName: The filename of the encoded image.
 - encryptFunc: Decryption function to be applied. Choose from Decode_V1, Decode_V2, Decode_V3, Decode_V4.
 
-#Examples:
+# Examples:
 
 ## Encoding:
 ```bash
